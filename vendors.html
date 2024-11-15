@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vendors page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="vendorinfo">
+      <img src="images/idbanner.png" alt="vendorimg" />
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Please Enter The Vendor ID here..</h4>
+          <br />
+          <h5>Vendor ID:</h5>
+          <label for=""></label>
+          <input type="text" id="box" />
+          <br />
+          <br />
+          <button type="button" onclick="submitVendorID()">Submit</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function submitVendorID() {
+        const vendorId = document.getElementById("box").value.trim(); // Get the input value and trim whitespace
+        if (vendorId) {
+          // Redirect to vendorPortal.html with vendor ID as a query parameter
+          window.location.href = `vendorPortal.html?vendorId=${vendorId}`;
+        } else {
+          alert("Please enter a Vendor ID before submitting!"); // Handle empty input
+        }
+      }
+    </script>
+  </body>
+</html>

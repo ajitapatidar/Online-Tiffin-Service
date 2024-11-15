@@ -1,0 +1,341 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  height: 60%;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+}
+.nav a {
+  color: black;
+  padding: 20px;
+  font-family: cursive;
+}
+.nav h1 {
+  margin-right: 50%;
+  font-size: 25px;
+}
+
+.container {
+  height: 60%;
+  background-color: black;
+  color: white;
+  margin-top: 60%;
+  color: black;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+footer {
+  padding-bottom: 40%;
+}
+
+.section {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 1px;
+  color: white;
+}
+
+.contact-info,
+.quick-links,
+.about {
+  max-width: 30%;
+  margin-right: 10%;
+}
+
+.container h2 {
+  text-decoration: underline;
+  font-style: italic;
+}
+.container a {
+  color: white;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slogan {
+  position: absolute;
+  bottom: 500px;
+  left: 100px;
+  top: 5%;
+  margin-right: 20%;
+  color: darkred;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-style: italic;
+  animation: slog 5s ease-out 4s infinite;
+}
+
+@keyframes slog {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px) scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: translatey(0) scale(1);
+  }
+}
+
+.items img {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  margin-right: 90%;
+}
+
+.container {
+  margin-top: 0;
+}
+body {
+  overflow-x: hidden;
+}
+
+.nav2 {
+  height: 60%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: serif;
+}
+.nav2 h1 {
+  margin-right: 50%;
+}
+.nav2 p {
+  margin-right: 2%;
+}
+.nav2 a {
+  color: black;
+  margin-right: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Register {
+  height: 400px;
+  width: 400px;
+  background-color: lightgrey;
+  margin: auto;
+  margin-top: 7%;
+  border-radius: 9%;
+}
+
+.body1 {
+  background-image: url("images/banner.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: auto;
+}
+
+form {
+  padding-left: 15%;
+  padding-top: 10%;
+  font-size: large;
+}
+#mail {
+  margin-left: 9%;
+}
+
+#pass {
+  padding-left: 1%;
+}
+
+button {
+  margin-left: 30%;
+  font-size: larger;
+  border: 2px solid black;
+}
+.Login form {
+  height: 230px;
+  width: 300px;
+  background-color: lightgray;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 5%;
+}
+.Login form {
+  position: relative;
+  top: -230px;
+}
+.body2 {
+  background-color: black;
+}
+
+#loginbody {
+  background-image: url("images/BG.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+  margin-top: 20%;
+  position: sticky;
+  overflow-y: hidden;
+}
+
+.navlogin {
+  background-color: whitesmoke;
+  color: black;
+  height: 65%;
+  top: -280px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  font-family: cursive;
+  font-size: 15px;
+}
+
+.navlogin a {
+  color: black;
+  margin-top: 1%;
+}
+.navlogin h1 {
+  margin-right: 40%;
+}
+
+#ven {
+  margin-left: 20%;
+}
+
+.vendorinfo img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 17%;
+  margin-top: -300px;
+}
+
+.card {
+  background-color: aliceblue;
+  border: 2px solid black;
+  color: black;
+  height: 130%;
+  width: 20%;
+  margin: 20px;
+  margin-left: 38%;
+}
+.card-body {
+  margin-left: 10%;
+}
+
+.vendordelivery img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 17%;
+  margin-top: -13px;
+}
+
+.navbar {
+  height: 25px;
+  background-color: black;
+  color: white;
+}
+.navbar a {
+  color: white;
+  margin-left: 90%;
+}
+
+.navbar {
+  display: flex;
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar-items {
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-items li a {
+  color: white;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.logout {
+  margin-left: 50px;
+}
+.first {
+  margin-left: 1106px;
+}
+
+.info {
+  height: 520px;
+  width: 480px;
+  background-color: whitesmoke;
+  margin-top: 30px;
+  margin-left: 50%;
+  margin-left: 60%;
+}
+
+.deliverimg img {
+  margin-top: 0 auto;
+}
+
+.form2 {
+  margin: 10px;
+}
+.form2 button {
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.appliimg {
+  margin-top: -40%;
+  position: fixed;
+}
+#back {
+  background-color: lightblue;
+}
+
+.project a {
+  color: black;
+  margin-left: 45%;
+  font-size: larger;
+  font-family: cursive;
+}
+
+#details {
+  background-color: whitesmoke;
+  overflow-y: hidden;
+}
+
+#img1 {
+  height: 60%;
+  width: 50%;
+  margin-top: 5%;
+  margin-right: 50%;
+}
+
+#orderForm {
+  margin-top: -5%;
+  margin-top: 5%;
+}

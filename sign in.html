@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body id="loginbody">
+    <div class="navlogin">
+      <h1>Online Tiffin Service</h1>
+      <a href="/vendors.html" id="ven">Vendors</a>
+      <a href="/Dashboard.html">Dashboard</a>
+    </div>
+    <div class="Login form">
+      <form id="form2">
+        <h1>Login Form</h1>
+        <br />
+        <br />
+        <span class="input-group-text"><i class="fas fa-user"></i></span>
+        <label for="Username">Username:</label>
+        <input type="text" id="user" />
+        <br />
+        <span class="input-group-text"><i class="fas fa-key"></i></span>
+        <label for="Password">Password:</label>
+        <input type="password" id="Pass" />
+        <br />
+        <br />
+        <button type="button" onclick="Validateloginform()">Login</button>
+        <br />
+        <br />
+        <button type="button" id="bt2" onclick="logout()" id="logoutBtn">
+          Logout
+        </button>
+      </form>
+    </div>
+
+    <script src="sign in.js"></script>
+  </body>
+</html>
